@@ -1,6 +1,6 @@
 {
     "name": "kilo-code-kit",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Kilo Code AI kit with agents, skills, workflows and rules",
     "type": "module",
     "bin": {
