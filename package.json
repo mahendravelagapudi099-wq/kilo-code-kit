@@ -4,7 +4,10 @@
     "description": "Kilo Code AI kit with agents, skills, workflows and rules",
     "type": "module",
     "bin": {
-        "kilo-kit": "./bin/init.js"
+        "kilo-kit": "bin/init.js"
+    },
+    "scripts": {
+        "prepublishOnly": "npm pkg set bin.kilo-kit=./bin/init.js"
     },
     "license": "MIT"
 }
